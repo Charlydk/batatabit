@@ -170,7 +170,7 @@ main{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
+    color: var(--warm-black);
     background-color: var(--just-white);
 }
 .currency-table--container .table__top-left{
@@ -396,27 +396,27 @@ main{
     width: 70%;
     min-width: 290px;
     max-width: 300px;
-    height: 375px;
+    height: 350px;
     margin: 50px 5px 0 ;
     padding: 0 15px;
-    background-color: var(--just-white);
+    background-color: var(--grey);
     border-radius: 15px;
     box-shadow: 4 4px 8px rgba(89, 73, 30, 0.16);
 }
 .recommended{
     position: absolute;
-    width: 120px;
+    width: 150px;
     height: 31px;
     padding: 6px;
     top: -15px;
-    left: calc(50% - 60px);
+    left: calc(50% - 75px);
     font-size: 1.2rem;
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
 }
 .plan-card--tittle{
-    padding: 50px;
+    padding: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -440,14 +440,14 @@ main{
     color: #757575;
 }
 .plan-card--ca{
-    width: 150px;
+    width: 175px;
     height: 48px;
     margin-top: 20px;
     background-color: #faf8f7 ;
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
     font-family: 'DM Sans', 'sans-serif';
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--black);
