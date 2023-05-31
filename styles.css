@@ -420,8 +420,9 @@ main{
     color: black;
 }
 .plan-card--price span{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 300;
+    vertical-align: 45px;
 
 }
 .plan-card--saving{
